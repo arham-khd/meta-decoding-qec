@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Large generated files
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Local data/cache
+data/
+cache/
+meta_decoder_results_structured_clean/cache/
+meta_decoder_results_structured_clean/datasets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
